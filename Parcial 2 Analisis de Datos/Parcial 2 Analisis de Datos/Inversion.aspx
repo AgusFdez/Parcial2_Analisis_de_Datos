@@ -1,94 +1,55 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Inversion.aspx.cs" Inherits="Parcial_2_Analisis_de_Datos.Inversion" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
+    <h4>Plazos fijos: tasas anuales (TNA, en %)</h4>
     <table class="table">
         <tr>
-            <td style="width: 180px">Banco Provincia</td>
-            <td>Interes mensual</td>
-            <td>Interes Trimestral</td>
-            <td>Interes Anual</td>
+            <td>Banco</td>
+            <td>año 2023</td>
+            <td>año 2024</td>
+            <td>año 2025</td>
         </tr>
         <tr>
-            <td style="width: 180px">año 2023</td>
-            <td><asp:TextBox ID="txtInt_Mensual_Provincia1" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Trimestral_Provincia1" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Anual_Provincia1" runat="server" CssClass="form-control"></asp:TextBox></td>
+            <td>Banco Provincia</td>
+            <td><asp:TextBox ID="txtProv1" runat="server" CssClass="form-control"></asp:TextBox></td>
+            <td><asp:TextBox ID="txtProv2" runat="server" CssClass="form-control"></asp:TextBox></td>
+            <td><asp:TextBox ID="txtProv3" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
-            <td style="width: 180px">año 2024</td>
-            <td><asp:TextBox ID="txtInt_Mensual_Provincia2" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Trimestral_Provincia2" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Anual_Provincia2" runat="server" CssClass="form-control"></asp:TextBox></td>
+            <td>Banco Nación</td>
+            <td><asp:TextBox ID="txtNac1" runat="server" CssClass="form-control"></asp:TextBox></td>
+            <td><asp:TextBox ID="txtNac2" runat="server" CssClass="form-control"></asp:TextBox></td>
+            <td><asp:TextBox ID="txtNac3" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
         <tr>
-            <td style="width: 180px">año 2025</td>
-            <td><asp:TextBox ID="txtInt_Mensual_Provincia3" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Trimestral_Provincia3" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Anual_Provincia3" runat="server" CssClass="form-control"></asp:TextBox></td>
+            <td>Banco Hipotecario</td>
+            <td><asp:TextBox ID="txtHip1" runat="server" CssClass="form-control"></asp:TextBox></td>
+            <td><asp:TextBox ID="txtHip2" runat="server" CssClass="form-control"></asp:TextBox></td>
+            <td><asp:TextBox ID="txtHip3" runat="server" CssClass="form-control"></asp:TextBox></td>
         </tr>
     </table>
-    <br />
-        <table class="table">
-        <tr>
-            <td style="width: 180px">Banco Nacion&nbsp; </td>
-            <td>Interes mensual</td>
-            <td>Interes Trimestral</td>
-            <td>Interes Anual</td>
-        </tr>
-        <tr>
-            <td style="width: 180px">año 2023</td>
-            <td><asp:TextBox ID="txtInt_Mensual_nacion1" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Trimestral_nacion1" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Anual_nacion1" runat="server" CssClass="form-control"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td style="width: 180px">año 2024</td>
-            <td><asp:TextBox ID="txtInt_Mensual_nacion2" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Trimestral_nacion2" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Anual_nacion2" runat="server" CssClass="form-control"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td style="width: 180px">año 2025</td>
-            <td><asp:TextBox ID="txtInt_Mensual_nacion3" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Trimestral_nacion3" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Anual_nacion3" runat="server" CssClass="form-control"></asp:TextBox></td>
-        </tr>
-    </table>
-    <br />
-        <table class="table">
-        <tr>
-            <td style="width: 180px">Banco Hipotecario</td>
-            <td>Interes mensual</td>
-            <td>Interes Trimestral</td>
-            <td>Interes Anual</td>
-        </tr>
-        <tr>
-            <td style="width: 180px">año 2023</td>
-            <td><asp:TextBox ID="txtInt_Mensual_hipotecario1" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Trimestral_hipotecario1" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Anual_hipotecario1" runat="server" CssClass="form-control"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td style="width: 180px">año 2024</td>
-            <td><asp:TextBox ID="txtInt_Mensual_hipotecario2" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Trimestral_hipotecario2" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Anual_hipotecario2" runat="server" CssClass="form-control"></asp:TextBox></td>
-        </tr>
-        <tr>
-            <td style="width: 180px">año 2025</td>
-            <td><asp:TextBox ID="txtInt_Mensual_hipotecario3" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Trimestral_hipotecario3" runat="server" CssClass="form-control"></asp:TextBox></td>
-            <td><asp:TextBox ID="txtInt_Anual_hipotecario3" runat="server" CssClass="form-control"></asp:TextBox></td>
-        </tr>
-    </table>
-    <br />
 
-    <table class="table">
-        <tr>
-            <td style="width: 50%">Ingrese capital a calcular: <asp:TextBox ID="txtCapital" runat="server" CssClass="form-control"></asp:TextBox>
-                <asp:Button ID="btnCalcular" runat="server" Text="Calcular" />
-            </td>
-            <td></td>
-        </tr>
-    </table>
+    <p>Ingresá las tasas como porcentaje.</p>
+
+    <div>
+        <label>Capital a invertir:</label>
+        <asp:TextBox ID="txtCapital" runat="server" CssClass="form-control"></asp:TextBox>
+    </div>
+    <asp:Button ID="btnCalcular" runat="server" Text="Calcular" CssClass="btn btn-primary" OnClick="btnCalcular_Click" />
+    <br /><br />
+
+    <asp:Label ID="lblError" runat="server" CssClass="text-danger"></asp:Label>
+
+    <asp:GridView ID="gvRendimientos" runat="server" AutoGenerateColumns="false" CssClass="table">
+        <Columns>
+            <asp:BoundField DataField="Banco" HeaderText="Banco" />
+            <asp:BoundField DataField="Promedio" HeaderText="Tasa promedio (%)" DataFormatString="{0:N2}" />
+            <asp:BoundField DataField="Anual" HeaderText="Rendimiento anual" DataFormatString="{0:C2}" />
+            <asp:BoundField DataField="Trimestral" HeaderText="Rendimiento trimestral" DataFormatString="{0:C2}" />
+            <asp:BoundField DataField="Mensual" HeaderText="Rendimiento mensual" DataFormatString="{0:C2}" />
+        </Columns>
+    </asp:GridView>
+
+    <asp:Label ID="lblRecomendacion" runat="server" Font-Bold="true"></asp:Label>
+
 </asp:Content>

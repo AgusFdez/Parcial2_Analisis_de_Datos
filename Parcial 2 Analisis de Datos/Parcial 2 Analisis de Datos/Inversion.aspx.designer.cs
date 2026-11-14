@@ -15,247 +15,85 @@ namespace Parcial_2_Analisis_de_Datos
     {
 
         /// <summary>
-        /// Control txtInt_Mensual_Provincia1.
+        /// Control txtProv1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Mensual_Provincia1;
+        protected global::System.Web.UI.WebControls.TextBox txtProv1;
 
         /// <summary>
-        /// Control txtInt_Trimestral_Provincia1.
+        /// Control txtProv2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Trimestral_Provincia1;
+        protected global::System.Web.UI.WebControls.TextBox txtProv2;
 
         /// <summary>
-        /// Control txtInt_Anual_Provincia1.
+        /// Control txtProv3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Anual_Provincia1;
+        protected global::System.Web.UI.WebControls.TextBox txtProv3;
 
         /// <summary>
-        /// Control txtInt_Mensual_Provincia2.
+        /// Control txtNac1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Mensual_Provincia2;
+        protected global::System.Web.UI.WebControls.TextBox txtNac1;
 
         /// <summary>
-        /// Control txtInt_Trimestral_Provincia2.
+        /// Control txtNac2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Trimestral_Provincia2;
+        protected global::System.Web.UI.WebControls.TextBox txtNac2;
 
         /// <summary>
-        /// Control txtInt_Anual_Provincia2.
+        /// Control txtNac3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Anual_Provincia2;
+        protected global::System.Web.UI.WebControls.TextBox txtNac3;
 
         /// <summary>
-        /// Control txtInt_Mensual_Provincia3.
+        /// Control txtHip1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Mensual_Provincia3;
+        protected global::System.Web.UI.WebControls.TextBox txtHip1;
 
         /// <summary>
-        /// Control txtInt_Trimestral_Provincia3.
+        /// Control txtHip2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Trimestral_Provincia3;
+        protected global::System.Web.UI.WebControls.TextBox txtHip2;
 
         /// <summary>
-        /// Control txtInt_Anual_Provincia3.
+        /// Control txtHip3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Anual_Provincia3;
-
-        /// <summary>
-        /// Control txtInt_Mensual_nacion1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Mensual_nacion1;
-
-        /// <summary>
-        /// Control txtInt_Trimestral_nacion1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Trimestral_nacion1;
-
-        /// <summary>
-        /// Control txtInt_Anual_nacion1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Anual_nacion1;
-
-        /// <summary>
-        /// Control txtInt_Mensual_nacion2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Mensual_nacion2;
-
-        /// <summary>
-        /// Control txtInt_Trimestral_nacion2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Trimestral_nacion2;
-
-        /// <summary>
-        /// Control txtInt_Anual_nacion2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Anual_nacion2;
-
-        /// <summary>
-        /// Control txtInt_Mensual_nacion3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Mensual_nacion3;
-
-        /// <summary>
-        /// Control txtInt_Trimestral_nacion3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Trimestral_nacion3;
-
-        /// <summary>
-        /// Control txtInt_Anual_nacion3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Anual_nacion3;
-
-        /// <summary>
-        /// Control txtInt_Mensual_hipotecario1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Mensual_hipotecario1;
-
-        /// <summary>
-        /// Control txtInt_Trimestral_hipotecario1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Trimestral_hipotecario1;
-
-        /// <summary>
-        /// Control txtInt_Anual_hipotecario1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Anual_hipotecario1;
-
-        /// <summary>
-        /// Control txtInt_Mensual_hipotecario2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Mensual_hipotecario2;
-
-        /// <summary>
-        /// Control txtInt_Trimestral_hipotecario2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Trimestral_hipotecario2;
-
-        /// <summary>
-        /// Control txtInt_Anual_hipotecario2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Anual_hipotecario2;
-
-        /// <summary>
-        /// Control txtInt_Mensual_hipotecario3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Mensual_hipotecario3;
-
-        /// <summary>
-        /// Control txtInt_Trimestral_hipotecario3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Trimestral_hipotecario3;
-
-        /// <summary>
-        /// Control txtInt_Anual_hipotecario3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInt_Anual_hipotecario3;
+        protected global::System.Web.UI.WebControls.TextBox txtHip3;
 
         /// <summary>
         /// Control txtCapital.
@@ -274,5 +112,32 @@ namespace Parcial_2_Analisis_de_Datos
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnCalcular;
+
+        /// <summary>
+        /// Control lblError.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblError;
+
+        /// <summary>
+        /// Control gvRendimientos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvRendimientos;
+
+        /// <summary>
+        /// Control lblRecomendacion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRecomendacion;
     }
 }
