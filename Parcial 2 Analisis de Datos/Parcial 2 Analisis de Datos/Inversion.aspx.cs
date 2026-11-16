@@ -19,12 +19,13 @@ namespace Parcial_2_Analisis_de_Datos
 
         }
 
-        protected void btnCalcular_Click(object sender, EventArgs e) 
+
+        protected void btnCalcular_Click(object sender, EventArgs e)
         {
             lblError.Text = "";
             lblRecomendacion.Text = "";
 
-            if (!TryLeer(txtCapital, out decimal capital))  //lee el capital ingresado y lo convierte a decimal
+            if (!TryLeer(txtCapital, out decimal capital))
             {
                 lblError.Text = "Ingrese un capital válido.";
                 return;
@@ -59,12 +60,6 @@ namespace Parcial_2_Analisis_de_Datos
                 return;
             }
 
-            if (!TryLeer(txtCapital, out capital))
-            {
-                lblError.Text = "Ingrese un capital válido.";
-                return;
-            }
-
             List<Banco> bancos = new List<Banco>
             {
                 new Banco("Banco Provincia", tasasProv),
@@ -74,18 +69,17 @@ namespace Parcial_2_Analisis_de_Datos
 
             AnalizadorInversion analizador = new AnalizadorInversion(bancos, capital);
 
-            //mostrar las opciones de rendimiento en el gridview
-
+            // Mostrar las opciones de rendimiento en el GridView
             gvRendimientos.DataSource = analizador.ObtenerOpciones();
             gvRendimientos.DataBind();
 
-
-            // mostrar ObtenerMejorOpcion en el label de recomendacion
-            OpcionInversion mejorOpcion = analizador.ObtenerMejorOpcion();
+            // Mostrar la mejor opción en el Label de recomendación
             OpcionInversion mejor = analizador.ObtenerMejorOpcion();
+
             lblRecomendacion.Text = "La mejor opción de inversión es: " + mejor.NombreBanco +
                 ", de forma " + mejor.Modalidad.ToLower() +
                 ", con un rendimiento de " + mejor.Rendimiento.ToString("C2", AR) + ".";
         }
+
     }
 }
