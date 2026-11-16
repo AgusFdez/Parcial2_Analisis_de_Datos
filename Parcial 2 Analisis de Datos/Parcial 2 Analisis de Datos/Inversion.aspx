@@ -41,14 +41,12 @@
     <asp:Label ID="lblError" runat="server" CssClass="text-danger"></asp:Label>
 
     <asp:GridView ID="gvRendimientos" runat="server" AutoGenerateColumns="false" CssClass="table">
-        <Columns>
-            <asp:BoundField DataField="Banco" HeaderText="Banco" />
-            <asp:BoundField DataField="Promedio" HeaderText="Tasa promedio (%)" DataFormatString="{0:N2}" />
-            <asp:BoundField DataField="Anual" HeaderText="Rendimiento anual" DataFormatString="{0:C2}" />
-            <asp:BoundField DataField="Trimestral" HeaderText="Rendimiento trimestral" DataFormatString="{0:C2}" />
-            <asp:BoundField DataField="Mensual" HeaderText="Rendimiento mensual" DataFormatString="{0:C2}" />
-        </Columns>
-    </asp:GridView>
+    <Columns>
+        <asp:BoundField DataField="NombreBanco" HeaderText="Banco" />
+        <asp:BoundField DataField="Modalidad" HeaderText="Modalidad" />
+        <asp:BoundField DataField="Rendimiento" HeaderText="Rendimiento (ganancia)" DataFormatString="{0:C2}" />
+    </Columns>
+</asp:GridView>
 
     <asp:Label ID="lblRecomendacion" runat="server" Font-Bold="true"></asp:Label>
 
