@@ -12,7 +12,7 @@ namespace Parcial_2_Analisis_de_Datos
 
         private  bool TryLeer(TextBox caja, out decimal valor) // lee el valor de la yxtbox y lo convierte a decimal
         {
-            return decimal.TryParse(caja.Text.Trim(), NumberStyles.Number, AR, out valor);
+            return decimal.TryParse(caja.Text.Trim(), NumberStyles.AllowDecimalPoint, AR, out valor) && valor >= 0;
         }
         protected void Page_Load(object sender, EventArgs e)
         {
