@@ -1,4 +1,0 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ViewSwitcher.ascx.cs" Inherits="Parcial_2_Analisis_de_Datos.ViewSwitcher" %>
-<div id="viewSwitcher">
-    <%: CurrentView %> view | <a href="<%: SwitchUrl %>" data-ajax="false">Switch to <%: AlternateView %></a>
-</div>
